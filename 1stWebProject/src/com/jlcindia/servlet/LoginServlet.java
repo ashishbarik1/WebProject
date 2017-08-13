@@ -40,7 +40,7 @@ public class LoginServlet extends HttpServlet{
 			 rd2.include(req, res);
 			
 		}else
-		if(msg.trim().equals("facebookpage")){
+		if(msg.trim().equals("facebook")){
 			res.sendRedirect("http://www.facebook.com");
 		}else
 		
