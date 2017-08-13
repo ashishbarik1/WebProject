@@ -28,7 +28,7 @@ public class LoginServlet extends HttpServlet{
 		String msg=req.getParameter("name");
 		
 		
-		if(msg.trim().equals("ashishbarik")){
+		if(msg.trim().equals("ashish")){
 			RequestDispatcher rd1 = req.getRequestDispatcher("header.html");
 			 rd1.include(req, res);
 			
