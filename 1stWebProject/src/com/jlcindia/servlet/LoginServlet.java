@@ -21,7 +21,7 @@ public class LoginServlet extends HttpServlet{
 		System.out.println("init method called");
 		
 	}
-	      // i love this
+	    
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		System.out.println("service method called");
@@ -40,7 +40,7 @@ public class LoginServlet extends HttpServlet{
 			 rd2.include(req, res);
 			
 		}else
-		if(msg.trim().equals("facebook")){
+		if(msg.trim().equals("facebookpage")){
 			res.sendRedirect("http://www.facebook.com");
 		}else
 		
